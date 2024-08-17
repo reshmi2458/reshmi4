@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract PrivateNFT is ERC721, ERC721Burnable, Ownable {
     constructor(address initialOwner)
-        ERC721("reshm","rsh")
+        ERC721("rsm","rs")
         Ownable(initialOwner)
     {}
 
